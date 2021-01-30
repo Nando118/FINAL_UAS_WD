@@ -1,0 +1,16 @@
+USER BIASA
+Uname: user
+Pss: user
+
+ADMIN:
+Uname: admin
+Pss: admin
+
+
+ANGGOTA KELOMPOK
+
+Egye Santoso - 20181000066 (Soal point 2)
+Henry Jonathan - 20181000074 (Soal point 3)
+Hansen - 20181000056 (Soal point 4)
+Thomas Febrian - 20181000037 (Soal point 1)
+Fernando Verdy Sunata - 20181000071 (Soal point 5)

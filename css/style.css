@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* LOGIN */
+html#root-login-page, body#body-login-page {
+    background-image: url(../resource/img/bg-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-main-login {
+    height: 100%;
+    align-content: center;
+}
+
+.container-main-login .card-main-login {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 350px;
+    padding: 8px;
+
+    background: rgba( 0, 0, 0, 0.10 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.0px );
+    -webkit-backdrop-filter: blur( 8.0px );
+    border-radius: 10px;
+}
+
+.container-main-login .card-main-login .card-img-top img.card-header-brand {
+    height: 40px;
+    margin-top: 1.4rem !important;
+    margin-bottom: .9rem !important;
+}
+
+.container-main-login .card-main-login .card-body .form-group .form-control {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.container-main-login .card-main-login .card-body .form-group .form-control::placeholder {
+    color: white;
+}
+
+.container-main-login .card-main-login .card-body .form-group .input-group-login span {
+    width: 40px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.container-main-login .card-main-login .card-body .remember {
+    color: white;
+}
+
+.container-main-login .card-main-login .card-body .remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+    margin-right: .4rem;
+}
+
+.container-main-login .card-main-login .card-body .login_btn{
+    color: #222831;
+    background-color: #fff;
+    width: 90px;
+}
+
+.container-main-login .card-main-login .card-body .login_btn:hover{
+    color: #fff;
+    background-color: #222831;
+}
+
+.container-main-login .card-main-login .card-footer {
+    border-top: transparent;
+    color: white;
+}
+
+.container-main-login .card-main-login .card-footer a.links {
+    color: #bbf1fa;
+}
+
+/* END LOGIN */
+
+
+/* MAIN */
+body#body-main-page{
+    font-family: 'Roboto', sans-serif;
+    background-color: #343a40;
+}
+
+nav.navbar.scrolled {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+nav.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.5) !important;
+  transition: background-color 200ms linear;
+}
+
+/* body#body-main-page nav.navbar-main-transparent{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+} */
+
+header#header-hero-main-page .carousel .carousel-inner img.carousel-hero-main-page {
+    height: 100%;
+    background-size: cover;
+    background: no-repeat center center scroll;
+}
+
+/* END MAIN */
+
+/* MAIN CONTENT */
+article#main-content-head .main-content-warp {
+    background-image: url(../resource/img/bg-main-content-head.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+article#main-content-head .container-fluid .row .col-md-6 .card .row .col-md-4 {
+    max-height: 300px;
+}
+
+article#main-content-head .container-fluid .row .col-md-6 .card .row .col-md-4 .img-card-post {
+    height: 100%;
+    background-size: cover;
+}
+
+/* article#main-content-head .container-fluid .row .col-md-6 .card .row .col-md-8 .card-text-description {
+    overflow: hidden;
+} */
+
+/* BLOG POST */
+#main-content {
+    background-image: url(../resource/img/bg-main-content.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#main-content .container-fluid .row .blog-main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 90px;
+    
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+    border-radius: 10px;
+}
+
+#main-content .container-fluid .row .blog-main .container .blog-post .blog-post-title,
+#main-content .container-fluid .row .blog-main .container .blog-post .blog-post-meta,
+#main-content .container-fluid .row .blog-main .container .blog-post .blog-post-text {
+    line-height: 2;
+}
+
+/* END MAIN CONTENT */
+
+/* SIDEBAR */
+#main-content .row .profile-sidebar .card {
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+}
+
+#main-content .row .profile-sidebar .card .sidebar-profile-img {
+    width: 200px;
+    margin: auto;
+}
+/* END SIDEBAR */
+
+/* FOOTER */
+.container-fluid footer#footer {
+    color: white;
+}
+/* END FOOTER */
+
+/* CHAT BTN */
+/* Input type image like a button, position mojok*/
+.btn-chat-img {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 9;
+}
+
+/* Popup chat, defaut hidden*/
+.popup-chatbox {
+    display: none;
+    position: fixed;
+    bottom: 12%;
+    right: 10%;
+    /* border: 3px solid #f1f1f1; */
+    z-index: 99;
+}
+
+/* container chat box */
+.form-container {    
+    max-width: 300px;
+    padding: 20px;
+    /* background-color: white; */    
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    /* -webkit-border-radius: 10px 10px 0px 10px;
+    -moz-border-radius: 10px 10px 0px 10px; */
+    border-radius: 10px 10px 0px 10px;
+}
+
+
+/* text chatbox title */
+#chatbox-main-page form.form-container .text-chatbox {
+    color: #350b40;
+}
+
+/* Textarea chatbox design */
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    /* background: #f1f1f1; */
+    resize: none;
+    min-height: 200px;
+
+    /* effect glassmorphism di text area */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+/* Textarea chatbox design after click */
+.form-container textarea:focus {
+    background-color: white;
+    outline: none;
+}
+
+/* button send and close design */
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* button close color */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* effect hover on button */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+/* END CHAT BTN */
+
+
+/* MOBILE */
+@media(max-width: 599px){
+
+    /* MAIN PAGE */
+    /* NAVBAR */
+    nav.navbar .nav-item .nav-link {
+        margin-left: 1rem;
+    }
+
+    nav.navbar .navbar-brand img{
+        margin-right: 7rem;
+    }
+
+    /* MAIN CONTENT HEAD */
+    #main-content-head .main-content-warp {
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+    }
+
+    #main-content-head .container-fluid .row .col-md-6 .card .col-md-4 img.img-card-post {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #main-content .container-fluid .row .blog-main {
+        padding: 0 5px;
+        margin-bottom: 0 !important;
+    }
+
+    #main-content .container-fluid .row .profile-sidebar {
+        margin-top: 30px !important;
+        margin-bottom: 30px;
+    }
+
+    #main-content .container-fluid .row .profile-sidebar #profile .card {
+        margin-left: auto !important;
+        margin-right: auto!important;
+    }
+}
