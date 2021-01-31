@@ -5,8 +5,8 @@
 
 /* LOGIN */
 html#root-login-page, body#body-login-page {
-    background-image: url(https://i.imgur.com/gnksekM.jpg);
-    /* background-image: url(../resource/img/bg-login.jpg); */
+    /* background-image: url(https://i.imgur.com/gnksekM.jpg); */
+    background-image: url(../resource/img/bg-login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -127,8 +127,8 @@ header#header-hero-main-page .carousel .carousel-inner img.carousel-hero-main-pa
 
 /* MAIN CONTENT */
 article#main-content-head .main-content-warp {
-    background-image: url(https://i.imgur.com/ME82MHQ.jpg);
-    /* background-image: url(../resource/img/bg-main-content-head.jpg); */
+    /* background-image: url(https://i.imgur.com/ME82MHQ.jpg); */
+    background-image: url(../resource/img/bg-main-content-head.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -149,8 +149,8 @@ article#main-content-head .container-fluid .row .col-md-6 .card .row .col-md-4 .
 
 /* BLOG POST */
 #main-content {
-    background-image: url(https://i.imgur.com/5de7bdb.jpg);
-    /* background-image: url(../resource/img/bg-main-content.jpg); */
+    /* background-image: url(https://i.imgur.com/5de7bdb.jpg); */
+    background-image: url(../resource/img/bg-main-content.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
